@@ -1,0 +1,40 @@
+MorseCore
+Copyright 2026 Mustafa Mert Akceylan
+
+The offline contact map uses simplified Natural Earth coastline data.
+Natural Earth data is in the public domain. Source and terms:
+https://www.naturalearthdata.com/about/terms-of-use/
+
+Desktop builds include these fonts under the SIL Open Font License 1.1:
+Atkinson Hyperlegible: Copyright 2020 Braille Institute of America, Inc.
+Crimson Pro: Copyright 2018 The Crimson Pro Project Authors.
+The font copyright notices and full licenses are included in Assets/Fonts.
+
+Optional offline speech packs are installed separately. Thank you to:
+
+EMA Lightning 1.1.2 - Canberk Aslan
+https://github.com/canberk7/ema-lightning
+https://huggingface.co/canberkkkkkk/ema-lightning
+Code and model weights: Apache License 2.0.
+Original license: third_party/speech/ema-lightning/LICENSE.
+
+Antalia-2 Mini 1.0.1 - Copyright 2026 PatientDesk AI
+https://huggingface.co/cloud0day3/antalia-mini
+Code, Turkish text normalizer and model weights: Apache License 2.0.
+The original LICENSE and NOTICE are preserved, without changes, in
+third_party/speech/antalia-mini/.
+
+MorseCore's speech adapter is original integration code; upstream speech
+package files and model weights are not modified or included in the desktop
+ZIP. Setup retains the separately installed packages' original notices.
+
+Piper is GPL-3.0-or-later and runs as a separate command-line process.
+Runtime dependencies, voices, training datasets and fonts retain their own
+licenses; MorseCore's license does not relicense those components. Desktop ZIPs
+include runtime license texts and a dependency inventory under licenses/.
+See docs/offline-speech.md and the installed model cards for voice conditions.
+
+Windows Setup bundles the unmodified official Python 3.13.16 x64 installer.
+Copyright Python Software Foundation. Python is optional, detected before
+installation, and installed only with consent. Its license and notices are
+preserved in third_party/installer/Python-LICENSE.txt.

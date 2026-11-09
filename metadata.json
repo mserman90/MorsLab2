@@ -1,0 +1,6 @@
+{
+  "name": "MorsLab PWA",
+  "description": "Metin, Mors kodu, konuşma sesi ve CW dalga formları arasında çok yönlü dönüşüm, etkileşimli maniple eğitimi, Goertzel DSP çözümleme ve ADIF amatör telsiz günlüğü sunan kapsamlı PWA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

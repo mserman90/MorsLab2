@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "MorsLab - Mors Çevirici ve Ses Laboratuvarı",
+  "short_name": "MorsLab",
+  "description": "Kelimelerden sinyallere. Mors çeviri, CW ses, alıştırmalar ve istasyon defteri. Çevrimdışı da yanınızda.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#3d6146",
+  "categories": ["education", "utilities", "productivity"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Mors çevirici", "url": "./#converter", "description": "Metni Mors koduna dönüştürün" },
+    { "name": "Alıştırmalar", "url": "./#practice", "description": "Morsun ritmini öğrenin" }
+  ]
+}
